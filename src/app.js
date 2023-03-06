@@ -8,8 +8,8 @@ const port = process.env.PORT ||  8000;
 
 //public static path
 const static_path = path.join(__dirname,"../public");
-const template_path = path.join(__dirname,"../templates/views");
-const partial_path = path.join(__dirname,"../templates/partials");
+const template_path = path.join(__dirname,"../Templates/views");//E:\MERN\Web_Development Project in ExpressJS\Templates\views
+const partial_path = path.join(__dirname,"../Templates/partials");
 
 app.set('view engine','hbs');
 app.set('views',template_path);
